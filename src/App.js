@@ -6,7 +6,7 @@ import "./styles.css";
 export default function App() {
   const [date, setDate] = useState('')
   const handleChange = value => {
-    message.info(`Yay Date: ${value ? value.format('DD-MM-YYYY') : 'None'}`)
+    message.info(`The Date Selected: ${value ? value.format('DD-MM-YYYY') : 'None'}`)
     setDate(value)
   }
   return (
